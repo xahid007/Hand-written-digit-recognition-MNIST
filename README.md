@@ -14,18 +14,15 @@ The MNIST dataset is a widely used benchmark dataset in the field of machine lea
 
 - Label Information: Each image is associated with a label indicating the corresponding digit it represents (ranging from 0 to 9). These labels provide ground truth information for supervised learning tasks, where the objective is to predict the correct digit based on the input image.
 
-### Application in Machine Learning
-
-The MNIST dataset serves as a standard benchmark for evaluating the performance of machine learning algorithms, particularly in the domain of image classification and digit recognition. Researchers and practitioners often utilize the dataset as a starting point to develop and test their models, making it a widely accepted reference for comparing and assessing different techniques.
-
 ### Accessibility
 
 The MNIST dataset is publicly available and easily accessible from various machine learning libraries and repositories. It is commonly included as a built-in dataset in popular deep learning frameworks such as TensorFlow and PyTorch, simplifying the process of loading and working with the data.
 
-**Note:** While the MNIST dataset is a valuable resource for learning and experimentation, it is essential to recognize that its simplicity and distinct characteristics may not fully represent real-world challenges in computer vision tasks.
+### Application in Machine Learning
 
+The MNIST dataset serves as a standard benchmark for evaluating the performance of machine learning algorithms, particularly in the domain of image classification and digit recognition. Researchers and practitioners often utilize the dataset as a starting point to develop and test their models, making it a widely accepted reference for comparing and assessing different techniques.
 
-
+<hr>
 
 ## Model Architecture
 
@@ -41,6 +38,7 @@ The model is compiled with the Adam optimizer, sparse categorical cross-entropy 
 
 To evaluate the trained model, it is tested on the separate test dataset, and the accuracy and loss values are calculated using the `model.evaluate()` function.
 
+
 ## Usage
 
 1. Install the required dependencies specified in the `requirements.txt` file.
@@ -51,6 +49,8 @@ Feel free to explore and modify the code to experiment with different architectu
 ## Contributing
 
 Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+**Note:** While the MNIST dataset is a valuable resource for learning and experimentation, it is essential to recognize that its simplicity and distinct characteristics may not fully represent real-world challenges in computer vision tasks.
 
 ## License
 
