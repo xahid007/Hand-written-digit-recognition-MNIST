@@ -44,11 +44,22 @@ To evaluate the trained model, it is tested on the separate test dataset, and th
 1. Install the required dependencies specified in the `requirements.txt` file.
 2. Run the `ipynb` script to train the model on the MNIST dataset.
 
-Feel free to explore and modify the code to experiment with different architectures, hyperparameters, and evaluation metrics.
+## Project Dependencies
+
+- [tensorflow](https://www.tensorflow.org/)
+- [numpy](https://numpy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [scikit-learn](https://scikit-learn.org/)
+- [matplotlib](https://matplotlib.org/)
+- [seaborn](https://seaborn.pydata.org/)
+
+You can modify this list according to the specific libraries and versions required for your project. Make sure to include the correct library names and version numbers for your dependencies.
+
+
 
 ## Contributing
 
-Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. Feel free to explore and modify the code to experiment with different architectures, hyperparameters, and evaluation metrics.
 
 **Note:** While the MNIST dataset is a valuable resource for learning and experimentation, it is essential to recognize that its simplicity and distinct characteristics may not fully represent real-world challenges in computer vision tasks.
 
