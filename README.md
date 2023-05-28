@@ -1,4 +1,4 @@
-# Hand-written-digit-recognition-MNIST
+# Hand-Written-Digit-Recognition-MNIST
 
 ## MNIST Dataset
 
